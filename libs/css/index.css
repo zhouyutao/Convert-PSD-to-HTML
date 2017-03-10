@@ -64,15 +64,17 @@ ul,ol,li{
 	line-height: 80px;
 	font-weight: bold;
 }
+
 .narbar-body-left .active{
 	margin:0px 25px 0px 25px;
 	padding: 0px;
-/*	height:60px;
-	border-bottom:4px;*/
-
 	color:red;
 	border-color: #f7505a;
 	border-bottom-style:solid;
+/*	height:60px;
+	border-bottom:4px;*/
+
+
 }
 /*增加了绝对定位的导航栏*/
 .fixNav{
@@ -84,17 +86,16 @@ ul,ol,li{
   width:100%;
   z-index: 10;
 }
+/*.banner*/
 .banner{
 	min-height:300px;
 	background-color: #5093e5;
 	border-radius: 2px;
+	font-family: 微软雅黑;
 }
 .banner-title{
-  margin:0;
-  padding-left: 150px;
-  padding-top: 100px;
-
-  color:#ffffff;
+	top:45px;
+	left:-33%;
 }
 
 .banner-title h1{
@@ -107,10 +108,12 @@ ul,ol,li{
 }
 
 .banner-photo{
-    margin:0;
-    padding-top: 100px;
-    padding-left: 100px;
+	position:absolute;
+	left:50%;
+	top:33px;
 }
+
+
 .content{
 	background-color: #ffffff;
 	min-height:350px;
