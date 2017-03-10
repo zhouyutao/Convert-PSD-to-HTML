@@ -1,9 +1,9 @@
 body{
 	background-color: #f7f7f7;
 }
-img{
+/*img{
 	max-width: 100%;
-}
+}*/
 a,ul{
 	margin:0;
 	padding: 0;
@@ -75,6 +75,9 @@ ul,ol,li{
 	border-bottom:4px;*/
 
 
+}
+.sm-logo{
+	display:none;
 }
 /*增加了绝对定位的导航栏*/
 .fixNav{
