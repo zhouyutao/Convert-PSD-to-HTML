@@ -27,8 +27,8 @@ ul,ol,li{
 }
 
 .navbar-body-right{
-/*	float: right;
-*/}
+	float: left;
+}
 .navbar-body-right li{
 	margin: 20px 7px 20px 7px;
 	width:90px;
