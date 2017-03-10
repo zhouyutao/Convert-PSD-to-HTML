@@ -74,6 +74,16 @@ ul,ol,li{
 	border-color: #f7505a;
 	border-bottom-style:solid;
 }
+/*增加了绝对定位的导航栏*/
+.fixNav{
+  position: fixed;
+  top:0;
+
+  height: 70px;
+  background-color: #eeeeee;
+  width:100%;
+  z-index: 10;
+}
 .banner{
 	min-height:300px;
 	background-color: #5093e5;
@@ -108,7 +118,7 @@ ul,ol,li{
 .content figure{
 	text-align: center;
 	margin-top: 64px;
-	font-family: ΢���ź�;
+	font-family: Î¢ÈíÑÅºÚ;
 	font-size: 14px;
 }
 .content figcation{
@@ -127,7 +137,7 @@ ul,ol,li{
 	padding-bottom: 16px;
 	margin-bottom: 0px;
 	font-size: 18px;
-	font-family: ΢���ź�;
+	font-family: Î¢ÈíÑÅºÚ;
 	font-weight: bold;
 	border: 0px;
 	border-bottom:2px;
@@ -179,7 +189,7 @@ ul,ol,li{
 }
 
 .lists-content li p{
-	font-family: ΢���ź�;
+	font-family: Î¢ÈíÑÅºÚ;
 	font-size: 18px;
 }
 .lists-content li span{
@@ -197,7 +207,7 @@ ul,ol,li{
 */
 	background-color: #f7505a;
 	color:#ffffff;
-	font-family: ΢���ź�;
+	font-family: Î¢ÈíÑÅºÚ;
 	font-size: 18px;
 	border-radius: 2px;
 	line-height: 46px;

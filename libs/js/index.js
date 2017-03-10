@@ -6,5 +6,15 @@ window.onload=function(){
 			$(this).removeClass('active');
 		}
 	);
-	
+	$(window).scroll(function() {
+	  var top=$(document).scrollTop();
+	  var nav=$(".navbar");
+	  console.log(nav);
+	  if(top>50){
+	    nav.addClass('fixNav');
+	  }
+	  else{
+	    nav.removeClass('fixNav');
+	  }
+	});
 }
